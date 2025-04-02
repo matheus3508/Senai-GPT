@@ -53,6 +53,26 @@
 
 }
 
+.btn-chat {
+
+    width: 100%;
+    background-color: transparent;
+    padding: 10px;
+    color: black;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.btn-chat img {
+    margin-right: 15px;
+}
+
 .btn {
 
     background-color: white;
@@ -63,7 +83,6 @@
     border-radius: 12px;
     border: none;
 }
-
 .painel-central h3 {
 
     text-align: center;
@@ -73,6 +92,11 @@
 p {
     font-size: 16px;
     background-color: whitesmoke;
+}
+.exemples h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .div-principal-text {
@@ -102,7 +126,7 @@ p {
 .senai {
     margin-top: 7vw;
     height: 60vw;
-    width: 47vh;
+    width: 50vh;
 }
 
 .input-text {
